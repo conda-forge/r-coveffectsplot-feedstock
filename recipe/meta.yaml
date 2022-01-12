@@ -23,30 +23,31 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-colourpicker
-    - r-data.table
+    - r-data.table >=1.9.8
     - r-dplyr
     - r-egg
-    - r-ggplot2
-    - r-ggstance
+    - r-ggplot2 >=3.3.2
     - r-markdown
     - r-shiny
     - r-shinyjs
+    - r-shinymeta
     - r-table1
     - r-tidyr
   run:
     - r-base
     - r-colourpicker
-    - r-data.table
+    - r-data.table >=1.9.8
     - r-dplyr
     - r-egg
-    - r-ggplot2
-    - r-ggstance
+    - r-ggplot2 >=3.3.2
     - r-markdown
     - r-shiny
     - r-shinyjs
+    - r-shinymeta
     - r-table1
     - r-tidyr
 
