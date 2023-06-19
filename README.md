@@ -1,11 +1,11 @@
-About r-coveffectsplot
-======================
+About r-coveffectsplot-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-coveffectsplot-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/smouksassi/interactiveforestplot
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-coveffectsplot-feedstock/blob/main/LICENSE.txt)
 
 Summary: Produce forest plots to visualize covariate effects using either the command line or an interactive 'Shiny' application.
 
