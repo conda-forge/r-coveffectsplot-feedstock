@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/coveffectsplot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/coveffectsplot/coveffectsplot_{{ version }}.tar.gz
-  sha256: 0f707db5559ceec54d8feac97f03ea5c6a8591e84ace4fbcc36588f23aff0790
+  sha256: b4b24b21d77f51c3a44d590063366d0dd64102514e2d9f331a96965e58bd5a9c
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
