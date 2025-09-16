@@ -1,4 +1,4 @@
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/coveffectsplot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/coveffectsplot/coveffectsplot_{{ version }}.tar.gz
-  sha256: cccbc47c216d4c6224fef106d20d1990415bb3086b210d00e741b67b3990459c
+  sha256: e9c77f6aa7c96367e3db9ab17ea62bf35730af02fc3f2e2b49b6325f10b76ffd
 
 build:
   number: 0
